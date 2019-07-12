@@ -1,0 +1,60 @@
+#titulo-calidad{
+	font-family: 'Montserrat Light';
+	font-size: 35px;
+	color: #00873E;
+	font-weight: 900;
+	margin-bottom: 0px;
+}
+
+#slogan-calidad{
+	text-align: center;
+	font-size: 28px;
+	color: #00669F;
+	margin-top: 10%
+}
+
+#imagen-calidad{
+	align-items: center;
+}
+
+.descargas-calidad{
+
+	background: #F8F8F8;
+
+	border: 1px solid #DDDDDD;
+
+	margin-top: 5%;
+
+	padding: 5% 0% 15%;
+
+}
+
+
+
+.descargas-calidad span{
+
+	font-family: 'Montserrat Semibold' !important;
+
+}
+
+
+
+.descargas-calidad i{
+
+	margin-top: 20%;
+
+}
+
+
+
+@media(max-width: 600px) {  
+
+	
+
+	.descargas-calidad span{
+
+		font-size: 11px !important;
+
+	}
+
+}

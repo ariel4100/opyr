@@ -1,0 +1,63 @@
+[25-Feb-2019 08:48:18 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 08:48:18 America/Santiago] PHP Stack trace:
+[25-Feb-2019 08:48:18 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 08:48:18 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 08:48:18 America/Santiago] PHP Stack trace:
+[25-Feb-2019 08:48:18 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 08:48:18 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/osolelar/public_html/opyr/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 08:48:18 America/Santiago] PHP Stack trace:
+[25-Feb-2019 08:48:18 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:21:31 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:21:31 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:21:31 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:21:31 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:21:31 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:21:31 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:21:31 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:21:31 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:21:31 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:21:38 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:21:38 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:21:38 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:21:38 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:21:38 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:21:38 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:21:38 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:21:38 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:21:38 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:27:43 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:27:43 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:27:43 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:27:43 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:27:43 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:27:43 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:27:43 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:27:43 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:27:43 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:31:00 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:31:00 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:31:00 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:31:00 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:31:00 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:31:00 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:31:00 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:31:00 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:31:00 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:37:07 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:37:07 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:37:07 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:37:07 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:37:07 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:37:07 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[25-Feb-2019 09:37:07 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/osolelar/public_html/opyr/index.php on line 24
+[25-Feb-2019 09:37:07 America/Santiago] PHP Stack trace:
+[25-Feb-2019 09:37:07 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[01-Mar-2019 15:51:52 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[01-Mar-2019 15:51:52 America/Santiago] PHP Stack trace:
+[01-Mar-2019 15:51:52 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[01-Mar-2019 15:51:52 America/Santiago] PHP Warning:  require(/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home/osolelar/public_html/opyr/index.php on line 24
+[01-Mar-2019 15:51:52 America/Santiago] PHP Stack trace:
+[01-Mar-2019 15:51:52 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0
+[01-Mar-2019 15:51:52 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/osolelar/public_html/opyr/../../opyr_laravel/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/osolelar/public_html/opyr/index.php on line 24
+[01-Mar-2019 15:51:52 America/Santiago] PHP Stack trace:
+[01-Mar-2019 15:51:52 America/Santiago] PHP   1. {main}() /home/osolelar/public_html/opyr/index.php:0

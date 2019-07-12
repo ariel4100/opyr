@@ -1,0 +1,36 @@
+#empresa-image{
+	width: 346px;
+	height: 460px;
+	overflow: hidden;
+}
+
+#titulo-empresa{
+	margin-bottom: 0px ;
+	margin-top: 0px ;
+	font-family: 'Montserrat Light';
+	color: #154C94;
+	font-size: 32px;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.texto-empresa{
+	font-family: 'Montserrat Light';
+	font-size: 17px;
+	line-height: 150%;
+	letter-spacing: 1;
+}
+
+#slogan-empresa{
+	font-family: 'Montserrat Light';
+	font-size: 20px;
+	line-height: 111%;
+	letter-spacing: 1;
+	color: #154C94;
+	font-weight: 600;
+	border-top: 2px solid #00893A;
+	border-bottom: 2px solid #00893A;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

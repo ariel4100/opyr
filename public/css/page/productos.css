@@ -1,0 +1,29 @@
+.breadcrumb {
+    color: black;
+
+}
+.breadcrumb:last-child {
+    color: black;
+}
+.breadcrumb:before {
+    color:red;
+    margin-top: -5px;
+}
+.graysillo {
+    color:#595959;
+}
+.graysillo:hover {
+    color: #128C44;
+}
+.breadcrumbsillo:last-child {
+    color: #128C44;
+}
+.active {
+    color: #128C44;
+}
+.greensillo {
+    color: #128C44;
+}
+.bluesillo {
+    color: #154C94;
+}

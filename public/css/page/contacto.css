@@ -1,0 +1,19 @@
+.contacto-text a, .contacto-text span{
+	font-size: 17px;
+	line-height: 110%;
+	color: #595959;
+	font-weight: 600;
+}
+
+.contacto-icon i{
+    position: relative;
+    margin-top: 2px;
+    color: #00669F ;
+}
+
+.button-enviar-mas{
+	background: #164D95;
+	color: #FFFFFF;
+	width: 132px;
+	border-radius: 3px;
+}

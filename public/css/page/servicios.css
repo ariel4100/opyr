@@ -1,0 +1,29 @@
+#texto1-servicios{
+	font-size: 25px; 
+}
+
+#texto2-servicios{
+	font-size: 17px; 
+	font-family: 'Montserrat Light'; 
+	 
+}
+
+#form-servicios{
+	background: #EEEEEE;
+	border-top: 1px solid #DCDCDC;
+	padding: 50px;
+}
+
+#titulo-formulario{
+	color: #164D95;
+	font-size: 26px;
+	font-family: 'Montserrat Light';
+	line-height: 120%;
+	font-weight: 600;
+}
+
+#label-formulario{
+	font-size: 17px; 
+	color: #5A5A5A;
+	 
+}
