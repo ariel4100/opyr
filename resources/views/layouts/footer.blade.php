@@ -5,7 +5,7 @@
 					<img id="logo-footer" class="img-responsive" src="{{ asset('images/logos/'.$logos->file_image) }}" alt="">
 				</a>
 			    @php($social = \App\Social::first())
-			 
+
 				@if($social->facebook)
 				<span>@lang('home.seguinos') <a href="{{ $social->facebook}}" target="_blank"> <i class="fab fa-facebook white-text"></i></a></span>
 				@endif
@@ -41,10 +41,10 @@
 							<a href=" {{ url('contacto')}} " >@lang('home.contacto')</a>
 						</div>
 					</div>
-				</div>				
-			</div> 
+				</div>
+			</div>
 
-				
+
 			<div class="col s12 m12 l3 footer-contact">
 				<span id="nombre-footer">@lang('home.contacto')</span>
 				<ul style="margin-top: 5%;">
@@ -57,9 +57,9 @@
 								 @php($dir1 = \App\Dato::where('tipo','direccion1')->first())
 
 								@if(App::getLocale() == 'es')
-								<a href="https://goo.gl/maps/wosGhSCQNY42" target="_blank">{{ $direccion->descripcion }}</a>
+								<a href="https://goo.gl/maps/wosGhSCQNY42" target="_blank">{{ $direccion->descripcion ?? '' }}</a>
 								@else
-									<a href="https://goo.gl/maps/3rAXMQLS4okRZpzp7" target="_blank">{{ $dir1->descripcion }} </a>
+									<a href="https://goo.gl/maps/3rAXMQLS4okRZpzp7" target="_blank">{{ $dir1->descripcion ?? ''}} </a>
 								@endif
 							</div>
 						</div>
@@ -71,9 +71,9 @@
 							</div>
 							<div class="col s10">
 								@if(App::getLocale() == 'es')
-									<a href="tel:{{ $telefono_1->descripcion }}">{{ $telefono_1->descripcion }}</a></br>
-									<a href="tel:{{ $telefono_2->descripcion }}">{{ $telefono_2->descripcion }}</a></br>
-									<a href="tel:{{ $telefono_3->descripcion }}">{{ $telefono_3->descripcion }}</a>
+									<a href="tel:{{ $telefono_1->descripcion ?? '' }}">{{ $telefono_1->descripcion  ?? '' }}</a></br>
+									<a href="tel:{{ $telefono_2->descripcion ?? '' }}">{{ $telefono_2->descripcion  ?? '' }}</a></br>
+									<a href="tel:{{ $telefono_3->descripcion ?? '' }}">{{ $telefono_3->descripcion ?? '' }}</a>
 								@else
 									<a href="mailto:55 62 8234-0715">+55 62 8234-0715</a>
 								@endif
@@ -88,11 +88,11 @@
 							</div>
 							<div class="col s10">
 								@php($email1 = \App\Dato::where('tipo','email1')->first())
-
+{{--                                @dd($email1)--}}
 								@if(App::getLocale() == 'es')
-									<a href="mailto:{{ $email->descripcion }}">{{ $email->descripcion }}</a>
+									<a href="mailto:{{ $email->descripcion  ?? '' }}">{{ $email->descripcion ?? '' }}</a>
 								@else
-									<a href="mailto:{{ $email1->descripcion }}">{{ $email1->descripcion }}</a>
+									<a href="mailto:{{ $email1->descripcion  ?? '' }}">{{ $email1->descripcion ?? '' }}</a>
 								@endif
 
 							</div>

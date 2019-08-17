@@ -90,12 +90,12 @@ class ClienteController extends Controller
     public function update(Request $request, $id)
     {
         //dd($request->all());
-        $request->validate([
-            'name' => ['required', 'string', 'max:255'],
-            'password' => ['required', 'string', 'min:4'],
-            'social' => ['required', 'string', 'max:255'],
-            'telefono' => ['required']
-        ]);
+//        $request->validate([
+//            'name' => ['required', 'string', 'max:255'],
+//            'password' => ['required', 'string', 'min:4'],
+//            'social' => ['required', 'string', 'max:255'],
+//            'telefono' => ['required']
+//        ]);
             $user = User::find($id);
             $user->seccion = json_encode($request->seccion);
             $user->name = $request->name;

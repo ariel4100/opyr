@@ -4,7 +4,10 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use App\Http\Controllers\Controller;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -28,7 +31,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/privada';
+    protected $redirectTo = '/login';
 
     /**
      * Create a new controller instance.
@@ -40,6 +43,31 @@ class RegisterController extends Controller
         $this->middleware('guest');
     }
 
+    public function register(Request $request)
+    {
+        $this->validator($request->all())->validate();
+
+        $cabeceras = 'From: administracion@opyr.com.ar';
+
+//        mail('arielcallisaya00@gmail.com','Solicitud de Registro de la Pagina Web','hola',$cabeceras);
+        $subject = "Opyr - Solicitud de Registro";
+        $for = "arielcallisaya00@gmail.com";
+//        $for = "administracion@opyr.com.ar";
+        Mail::send('mail',$request->all(), function($msj) use($subject,$for){
+            $msj->from("administracion@opyr.com.ar","OPYR");
+            $msj->subject($subject);
+            $msj->to($for);
+        });
+//                dd('enviado');
+//        Mail::to('arielcallisaya00@gmail.com')->send();
+//        $this->validator($request->all())->validate();
+
+          $this->create($request->all());
+//
+//        $this->guard()->login($user);
+//
+        return  redirect($this->redirectPath());
+    }
     /**
      * Get a validator for an incoming registration request.
      *

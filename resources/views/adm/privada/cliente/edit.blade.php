@@ -59,7 +59,7 @@
 
 				<i class="material-icons prefix">keyboard_arrow_right</i>
 
-				<input id="icon_prefix" type="password" class="validate" name="password" required >
+				<input id="icon_prefix" type="password" class="validate" name="password"   >
 
 				<label for="icon_prefix">Contraseña</label>
 
@@ -98,7 +98,7 @@
 					@endforeach
 					{{--<option value="general" {{ isset($data[1]) ? 'selected' : '' }}>Informacion general</option>--}}
 				</select>
-				<label>Permitir privilegios</label>
+				<label>Permitir privilegios(dar de alta)</label>
 			</div>
 
 			<div class="col m12 s12">
